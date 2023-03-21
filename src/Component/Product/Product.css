@@ -1,0 +1,139 @@
+.explore-card {
+    margin: 12px 0px 24px 0px;
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid transparent;
+
+}
+
+.explore-card-first {
+    margin-top: 12px;
+}
+
+.explore-card-cover {
+    height: 248px;
+    width: 328px;
+    border-radius: 15px;
+    position: relative;
+    border: 4px;
+
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.buttons:hover{
+    color:#776BCC;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.explore-card-image {
+    height: 100%;
+    width: 80%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+
+.res-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0px 6px;
+}
+
+.res-name {
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--heading-text);
+}
+
+
+.explore-bottom {
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+}
+
+.res-bottom-text {
+    font-size: 12px;
+    color: var(--inactive-text);
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-left: 8px;
+}
+
+.card-separator {
+    height: 1px;
+    margin: 10px 0px 5px;
+    background-color: var(--border-white);
+}
+
+.upper_data {
+    font-size: 18px;
+    color: rgba(17, 17, 17, 0.849);
+    letter-spacing: .5px;
+    font-weight: 500;
+}
+
+.lower_data h5 {
+    font-size: 15px;
+    letter-spacing: .4px;
+    font-weight: 400;
+    color: rgba(17, 17, 17, 0.849);
+}
+
+.cd {
+    border-radius: 16px;
+    margin-top: 30px;
+    height: 16rem;
+}
+
+.location {
+    color: #dd4b39;
+}
+
+
+.addToCard:hover {
+    background-color: #d2e9e3;
+    color: #00674b;
+}
+
+.addToCard {
+    background: transparent;
+    border-radius: 999px;
+    box-shadow: brown 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #00674b;
+    cursor: pointer;
+    font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji", NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji", EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    word-break: break-word;
+    border: 2;
+}
+.products{
+display: flex;
+}
+
+.title{
+    font-weight: 1000;
+}
